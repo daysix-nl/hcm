@@ -29,8 +29,8 @@
             <nav>
                 <ul class="flex space-x-3">
                     <!-- check of url contain -->
-                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= !preg_match("/(wat|hoe|waar)/i",$URL) ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/">Wie</a></li>
-                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "wat") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/wat/cat-alle/">Wat</a></li>
+                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= !preg_match("/(wat|hoe|waar|casestudy)/i",$URL) ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/">Wie</a></li>
+                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "wat") || str_contains($URL, "casestudy") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/wat/cat-alle/">Wat</a></li>
                     <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "hoe") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/hoe">Hoe</a></li>
                     <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "waar") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/waar">Waar</a></li>
                 </ul>
