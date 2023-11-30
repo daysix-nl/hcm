@@ -4,6 +4,7 @@
  * 
  * @package Day Six theme
  */
+ $URL =  $_SERVER['REQUEST_URI'];
  ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -27,10 +28,11 @@
         <div class=" items-center hidden lg:flex ml-auto">
             <nav>
                 <ul class="flex space-x-3">
-                    <li class="text-[#424B4F] hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20"><a href="/">Wie</a></li>
-                    <li class="text-[#424B4F] hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20"><a href="/wat/cat-alle/">Wat</a></li>
-                    <li class="text-[#424B4F] hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20"><a href="/hoe">Hoe</a></li>
-                    <li class="text-[#424B4F] hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20"><a href="/waar">Waar</a></li>
+                    <!-- check of url contain -->
+                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= !preg_match("/(wat|hoe|waar)/i",$URL) ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/">Wie</a></li>
+                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "wat") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/wat/cat-alle/">Wat</a></li>
+                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "hoe") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/hoe">Hoe</a></li>
+                    <li class=" hover:text-[#F18A06] hover:underline-offset-2 hover:underline transition-all duration-300 font-poppins font-light text-20 leading-20 <?= str_contains($URL, "waar") ? "text-[#F18A06] underline-offset-2 underline" : "text-[#424B4F]" ?>"><a href="/waar">Waar</a></li>
                 </ul>
             </nav>
             <div class="bg-[#C4C4C4] w-[1px] h-5 mx-3"></div>

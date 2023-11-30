@@ -14,7 +14,7 @@ function cut_string_at_word($string, $max_length, $end='...') {
 
 ?>
     <section>
-        <div class="container grid grid-cols-3 gap-x-[35px] gap-y-6 pb-6">
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[35px] gap-y-6 pb-6">
         <?php
             $loop = new WP_Query( 
                 array(
