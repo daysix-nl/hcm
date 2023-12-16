@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+main {
+  min-height: calc(100vh - 517px);
+  overflow: hidden;
+}
