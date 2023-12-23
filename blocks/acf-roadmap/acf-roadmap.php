@@ -3,11 +3,6 @@ if (isset($block['data']['preview_image_help'])): ?>
     <img src="#" style="width:100%; height:auto;">
     <?php
 else: ?>
-<?php
-$image = get_field('afbeelding');
-$image_url = isset($image['url']) ? esc_url($image['url']) : '';
-$image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
-?>
 
     <section class="grid-cols-7 container relative pb-[45px] hidden md:grid">
         <div class="col-span-2 hidden lg:block">

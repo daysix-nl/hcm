@@ -1,3 +1,8 @@
+<?php
+if (isset($block['data']['preview_image_help'])): ?>
+    <img src="#" style="width:100%; height:auto;">
+    <?php
+else: ?>
 <section class="pb-5 lg:pb-[75px] relative pt-5 lg:pt-0">
     <div class="container grid grid-cols-1 lg:grid-cols-2">
         <div class="col-span-1 flex flex-col lg:mt-[-155px]">
@@ -106,3 +111,4 @@ filter: grayscale(100%);" class="col-span-1 overflow-hidden lg:mt-[-50px] hidden
     <iframe class="mt-[-120px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.2597699615612!2d4.879997112841088!3d52.202326659583036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c675b12e9e299b%3A0xd81c6a9caca5213f!2sHandling%20Company%20B.V.!5e0!3m2!1snl!2snl!4v1703336257302!5m2!1snl!2snl" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
+<?php endif; ?>
