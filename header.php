@@ -67,18 +67,38 @@
         </div>
     </div>
 </header>
-<div class="menu w-sreen h-[100dvh] bg-white  flex flex-col w-full z-50">
-    <section class="h-[7px] w-full bg-orange"></section>
-    <div class="pt-7 px-2">
-        <div class="container flex flex-col">
-            <a class="text-30 leading-50 font-light text-[#424B4F] uppercase font-poppins" href="/">Wie</a>
-            <a class="text-30 leading-50 font-light text-[#424B4F] uppercase font-poppins" href="/wat/cat-alle/">Wat</a>
-            <a  class="text-30 leading-50 font-light text-[#424B4F] uppercase font-poppins"href="/hoe/">Hoe</a>
-            <a class="text-30 leading-50 font-light text-[#424B4F] uppercase font-poppins" href="/waar/">Waar</a>
-            <!-- <button class="h-3 w-3 p-[5px] rounded-full border-[1px] border-[#C4C4C4] hover:bg-[#c4c4c44a] hover:scale-105 transition-all mt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 24 25" viewBox="0 0 24 25"><path d="M16.9 17.2c-.1 0-.1.1 0 0l-.1.1c-1.3 1.3-3.2 2.1-5.2 2.1-4.1 0-7.4-3.3-7.4-7.4s3.3-7.4 7.4-7.4c4.1 0 7.4 3.3 7.4 7.4 0 2.1-.8 3.9-2.1 5.2m3.8 3.3-2.9-2.9c1.3-1.5 2.1-3.4 2.1-5.6 0-4.6-3.8-8.4-8.4-8.4S3.2 7.4 3.2 12c0 4.6 3.8 8.4 8.4 8.4 2.1 0 4.1-.8 5.6-2.1l2.9 2.9c.2.2.5.2.7 0 .1-.2.1-.5-.1-.7" style="fill:#f18700"/><path d="M16.9 17.2c-.1 0-.1.1 0 0l-.1.1c-1.3 1.3-3.2 2.1-5.2 2.1-4.1 0-7.4-3.3-7.4-7.4s3.3-7.4 7.4-7.4c4.1 0 7.4 3.3 7.4 7.4 0 2.1-.8 3.9-2.1 5.2zm3.8 3.3-2.9-2.9c1.3-1.5 2.1-3.4 2.1-5.6 0-4.6-3.8-8.4-8.4-8.4S3.2 7.4 3.2 12c0 4.6 3.8 8.4 8.4 8.4 2.1 0 4.1-.8 5.6-2.1l2.9 2.9c.2.2.5.2.7 0 .1-.2.1-.5-.1-.7z" style="fill:none;stroke:#f18700;stroke-width:5.000000e-02;stroke-miterlimit:10"/></svg>
-            </button> -->
+<div class="menu w-sreen bg-white  flex flex-col w-full z-50 bg-hero bottom-0">
+    <div class="relative h-full">
+        <section class="h-[7px] w-full bg-orange"></section>
+        <div class="pt-[35px] px-2 h-[95%]">
+            <div class="container flex flex-col justify-between h-full">
+                <div class="flex flex-col">
+                    <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/">Wie</a>
+                    <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/wat/cat-alle/">Wat</a>
+                    <a  class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/hoe">Hoe</a>
+                    <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/waar">Waar</a>
+                    <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/waar">Waar</a>
+                    <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/">Leveringsvoorwaarden</a>
+                    <a class="text-25 leading-35 font-light text-white font-raleway pt-1" href="/">Privacy & Voorwaarden</a>
+                    <a class="pt-5 flex" href="mailto:0297230570">
+                        <svg class="w-2 h-auto" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 24 25" viewBox="0 0 24 25">
+                            <path d="M11.8 6.6c.1.2.1.3 0 .5s-.2.3-.3.4l-1.5.7c-.1.1-.2.2-.2.3-.1 1.6.3 3.3 1 4.7.7 1.5 1.8 2.7 3.2 3.7.1.1.3.1.4 0l1.5-.7c.2-.1.3-.1.5 0s.3.2.4.3L18 19c.1.2.1.3 0 .5s-.2.3-.3.4l-1.3.7c-.3.2-.7.3-1.1.2-.4 0-.8-.1-1.1-.3-2.4-1.5-4.3-3.6-5.6-6.1C7.5 11.8 7 9 7.2 6.3c0-.4.2-.7.4-1.1.2-.3.5-.6.9-.7l1.3-.6c.2-.1.3-.1.5 0s.3.2.4.3l1.1 2.4zM9.3 3 8 3.7c-.5.2-.9.6-1.2 1-.3.4-.5.9-.5 1.4-.3 3 .3 5.9 1.6 8.6 1.4 2.6 3.4 4.9 5.9 6.4l.6.3c.4.1.8.2 1.3.2.4 0 .8-.1 1.2-.3l1.3-.6c.4-.2.6-.5.8-.9.1-.4.1-.8-.1-1.2l-1.2-2.5c-.2-.4-.5-.6-.9-.8-.4-.1-.8-.1-1.2.1l-1.3.6c-1.1-.8-2-1.9-2.6-3.1-.6-1.2-1-2.6-1-3.9l1.3-.7c.4-.2.7-.5.8-.9.1-.4.1-.8-.1-1.2l-1.3-2.5c-.2-.4-.5-.6-.9-.8-.4-.1-.8 0-1.2.1z" style="fill:#f18700"/>
+                        </svg>
+                        <span class="text-25 leading-35 font-bold text-white font-raleway ml-[5px]">0297-230570</span>
+                    </a>
+                </div>
+                <div class="flex space-x-2">
+                        <a href="">
+                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 40.1 40.1" viewBox="0 0 40.1 40.1">
+                                <path d="M5.7 3.5h28.7c1.1.2 1.9.8 2.2 1.8.3.9.1 2.3.1 3.6v21.9c0 1.2.1 2.5 0 3.6-.1 1.3-1.1 2-2.2 2.2H5.7c-1.3-.2-2-.9-2.2-2.2V5.7c.2-1.3.9-2 2.2-2.2m2.2 7.4c0 2.2 2.5 3.7 4.4 2.5.4-.2.7-.6.9-.9 1.3-2.2-.5-4.5-2.6-4.4-1.5 0-2.7 1.2-2.7 2.8M30.1 17c-1-1-2.6-1.6-4.6-1.5-2.1.1-3.5 1.2-4.4 2.5v-2.1h-4.8v15.8h5v-5.5c0-2-.2-3.9.5-5.1.5-1 2.3-1.8 3.7-1 1.6.9 1.3 3.7 1.3 6.3v5.3h5c-.4-5 1-11.9-1.7-14.7M8.3 16v15.7h5V15.9H8.4c-.1 0-.1.1-.1.1" style="fill:#fff"/>
+                            </svg>
+                        </a>
+                </div>
+            </div>
+
+
         </div>
+        <section class="h-[7px] w-full bg-orange absolute bottom-0 left-0 right-0"></section>
     </div>
 </div>
 

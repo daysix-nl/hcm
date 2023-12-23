@@ -2,9 +2,11 @@ try {
   const button = document.querySelector(".button-hamburger");
 
   button.addEventListener("click", () => {
+    const html = document.querySelector("html");
     const menu = document.querySelector(".menu");
     button.classList.toggle("button-hamburger--active");
     menu.classList.toggle("menu--active");
+    html.classList.toggle("no-scroll");
   });
 } catch (error) {}
 

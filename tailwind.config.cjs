@@ -3,6 +3,7 @@ module.exports = {
   // important: true,
   content: [
     "./*.php",
+    "./img/icon/*.php",
     "./page-templates/*.{html,js,php}",
     "./blocks/*/*.{html,js,php}",
     "./componenten/*.{html,js,php}",
