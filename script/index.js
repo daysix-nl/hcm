@@ -35,3 +35,24 @@ try {
 
   elementsToObserve.forEach((element) => observer.observe(element));
 } catch (error) {}
+
+try {
+  const elementsToObserve = document.querySelectorAll(
+    ".timeline-container-mobile"
+  );
+
+  const intersectionCallback = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view");
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(intersectionCallback, {
+    threshold: 1,
+    rootMargin: "0px 0px 0px 0px",
+  });
+
+  elementsToObserve.forEach((element) => observer.observe(element));
+} catch (error) {}
