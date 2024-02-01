@@ -17,17 +17,19 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                 <div class="h-[1px] w-[115px] bg-[#F18700] my-2"></div>
                 <p class="font-poppins font-light text-black text-16 leading-26"><?php the_field('marktsituatie_tekst');?></p>
             </div>
+             <div class="item">
+                <h2 class="font-raleway font-bold text-[#2885C3] text-22"><?php the_field('uitdaging_titel');?></h2>
+                <div class="h-[1px] w-[115px] bg-[#F18700] my-2"></div>
+                <p class="font-poppins font-light text-black text-16 leading-26"><?php the_field('uitdaging_tekst');?></p>
+                
+            </div>
             <div class="item">
                 <h2 class="font-raleway font-bold text-[#2885C3] text-22"><?php the_field('oplossing_titel');?></h2>
                 <div class="h-[1px] w-[115px] bg-[#F18700] my-2"></div>
                 <p class="font-poppins font-light text-black text-16 leading-26"><?php the_field('oplossing_tekst');?></p>
-            </div>
-            <div class="item">
-                <h2 class="font-raleway font-bold text-[#2885C3] text-22"><?php the_field('uitdaging_titel');?></h2>
-                <div class="h-[1px] w-[115px] bg-[#F18700] my-2"></div>
-                <p class="font-poppins font-light text-black text-16 leading-26"><?php the_field('uitdaging_tekst');?></p>
                 <a href="<?php the_field('website');?>" class="h-[52px] px-[30px] bg-[#F18700] hover:bg-[#2885C3] duration-300 items-center justify-center font-poppins font-light text-white text-18 w-fit rounded-full mt-[30px] hidden lg:flex" target="_blank">Bekijk website</a>
             </div>
+           
         </div>
         <div class="hidden lg:grid gap-[50px]">
             <div class="item bg-[#F18700] rounded-[14px] p-[30px] h-fit">

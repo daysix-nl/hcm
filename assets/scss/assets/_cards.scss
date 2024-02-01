@@ -9,3 +9,19 @@
         transition: 0.3s ease-in-out;
     }
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {
+    #case .casehover {
+        opacity: 0;
+        transform: translateY(0px);
+        transition: 0.3s ease-in-out;
+    }
+
+    #case:hover .casehover {
+        opacity: 1;
+        transform: translateY(0px);
+        transition: 0.3s ease-in-out;
+    }
+}
