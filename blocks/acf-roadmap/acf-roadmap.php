@@ -4,7 +4,8 @@ if (isset($block['data']['preview_image_help'])): ?>
     <?php
 else: ?>
 
-    <section class="grid-cols-7 container relative pb-[45px] hidden md:grid">
+    <section class=" bg-white">
+        <div class="grid-cols-7 container relative pb-[45px] hidden md:grid">
         <div class="col-span-2 hidden lg:block">
             <div class="circle-roadmap top-10 sticky w-full flex flex-col items-center">
                 <div class="h-[200px] w-[200px] rounded-full bg-[#F18700] mx-auto z-10 border-[10px] border-white shadow-2xl flex justify-center items-center p-3">
@@ -26,8 +27,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">1.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Bespreken van de opdracht</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Goed luisteren en verbetervoorstellen delen om kwaliteit toe te voegen of tijd en geld te besparen</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_1');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_1');?></p>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +43,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">2.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Uitwerken van de opdracht</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Debriefing sturen aan de opdrachtgever voor akkoord, inclusief begrotingen planning</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_2');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_2');?></p>
                                 </div>
                             </div>
                         </div>
@@ -58,8 +59,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">3.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Actualiseren HCM-Portaal</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Checklist onderdelen, kritische data en alle actuele communicatie over de opdracht is online in het HCM-Portaal beschikbaar</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_3');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_3');?></p>
                                 </div>
                             </div>
                         </div>
@@ -74,8 +75,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">4.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Inplannen ontvangst componenten of produceren drukwerk, enveloppen en verpakkingen</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Kritische data actief controleren; alle componenten fotograferen bij binnenkomst en met de opdrachtgever delen voor akkoord</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_4');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_4');?></p>
                                 </div>
                             </div>
                         </div>
@@ -90,8 +91,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">5.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Productie van de opdracht</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Kwaliteitscontrole bedrijfsbureau, modellen fotograferen en delen met de opdrachtgever voor akkoord</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_5');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_5');?></p>
                                 </div>
                             </div>
                         </div>
@@ -106,8 +107,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">6.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Plan B ontwikkelen</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Als deadlines onder druk staan – plan B maken en afstemmen met de opdrachtgever</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_6');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_6');?></p>
                                 </div>
                             </div>
                         </div>
@@ -122,8 +123,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">7.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Foto’s van de modellen verzenden voor akkoord</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Akkoord opdrachtgever voor verzending – registreren in HCM Portaal</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_7');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_7');?></p>
                                 </div>
                             </div>
                         </div>
@@ -138,8 +139,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">8.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Akkoord opdrachtgever – verzenden</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Logistiek inplannen, verzend- en afleverbewijs delen met de opdrachtgever</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_8');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_8');?></p>
                                 </div>
                             </div>
                         </div>
@@ -154,8 +155,8 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">9.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">FAfronden opdracht</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Proces evalueren en verbeterpunten benoemen</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_9');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_9');?></p>
                                 </div>
                             </div>
                         </div>
@@ -170,14 +171,15 @@ else: ?>
                                     <h3 class="font-poppins text-white text-40">10.</h3>
                                 </div>
                                 <div>
-                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]">Evaluatie</h2>
-                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Toevoegen aan het HCM-portal als referentie voor toekomstige projecten</p>
+                                    <h2 class="font-raleway font-bold text-white text-16 lg:text-19 mb-1 lg:mb-[15px]"><?php the_field('titel_stap_10');?></h2>
+                                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_10');?></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+        </div>
         </div>
     </section>
 
@@ -205,8 +207,8 @@ else: ?>
                     1.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Bespreken van de opdrach</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Goed luisteren en verbetervoorstellen delen om kwaliteit toe te voegen of tijd en geld te besparen</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_1');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_1');?></p>
                 </div>
             </div>
         </article>
@@ -220,8 +222,8 @@ else: ?>
                     2.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Uitwerken van de opdracht</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Debriefing sturen aan de opdrachtgever voor akkoord, inclusief begroting en planning</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_2');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_2');?></p>
                 </div>
             </div>
         </article>
@@ -235,8 +237,8 @@ else: ?>
                     3.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Actualiseren HCM-Portaal</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Checklist onderdelen, kritische data en alle actuele communicatie over de opdracht is online in het HCM-Portaal beschikbaar</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_3');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_3');?></p>
                 </div>
             </div>
         </article>
@@ -250,8 +252,8 @@ else: ?>
                     4.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Inplannen ontvangst componenten of produceren drukwerk, enveloppen en verpakkingen</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Kritische data actief controleren; alle componenten fotograferen bij binnenkomst en met de opdrachtgever delen voor akkoord</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_4');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_4');?></p>
                 </div>
             </div>
         </article>
@@ -265,8 +267,8 @@ else: ?>
                     5.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Productie van de opdracht</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Kwaliteitscontrole bedrijfsbureau, modellen fotograferen en delen met de opdrachtgever voor akkoord</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_5');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_5');?></p>
                 </div>
             </div>
         </article>
@@ -280,8 +282,8 @@ else: ?>
                     6.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Plan B ontwikkelen</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Als deadlines onder druk staan – plan B maken en afstemmen met de opdrachtgever</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_6');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_6');?></p>
                 </div>
             </div>
         </article>
@@ -295,8 +297,8 @@ else: ?>
                     7.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Foto’s van de modellen verzenden voor akkoord</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Akkoord opdrachtgever voor verzending – registreren in HCM Portaal</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_7');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_7');?></p>
                 </div>
             </div>
         </article>
@@ -310,8 +312,8 @@ else: ?>
                     8.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Akkoord opdrachtgever – verzenden</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Logistiek inplannen, verzend- en afleverbewijs delen met de opdrachtgever</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_8');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_8');?></p>
                 </div>
             </div>
         </article>
@@ -325,8 +327,8 @@ else: ?>
                     9.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Afronden opdracht</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Proces evalueren en verbeterpunten benoemen</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_9');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_9');?></p>
                 </div>
             </div>
         </article>
@@ -340,8 +342,8 @@ else: ?>
                     10.
                 </div>
                 <div>
-                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]">Evaluatie</h2>
-                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24">Toevoegen aan het HCM-portal als referentie voor toekomstige projecten</p>
+                    <h2 class="font-raleway font-bold text-white text-19 mb-[5px]"><?php the_field('titel_stap_10');?></h2>
+                    <p class="font-poppins font-light text-white text-14 lg:text-15 leading-24"><?php the_field('tekst_stap_10');?></p>
                 </div>
             </div>
         </article>

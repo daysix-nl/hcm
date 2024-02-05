@@ -37,15 +37,15 @@
                 </ul>
             </nav>
             <div class="bg-[#C4C4C4] w-[1px] h-5 mx-3"></div>
-            <a class="flex items-center font-poppins font-light text-20 leading-20 text-[#424B4F]" href="tel:029723057">
+            <a class="flex items-center font-poppins font-light text-20 leading-20 text-[#424B4F]" href="tel:<?php the_field('telefoon', 'option');?>">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" xml:space="preserve" style="enable-background:new 0 0 24 25" viewBox="0 0 24 25"><path d="M11.8 6.6c.1.2.1.3 0 .5s-.2.3-.3.4l-1.5.7c-.1.1-.2.2-.2.3-.1 1.6.3 3.3 1 4.7.7 1.5 1.8 2.7 3.2 3.7.1.1.3.1.4 0l1.5-.7c.2-.1.3-.1.5 0s.3.2.4.3L18 19c.1.2.1.3 0 .5s-.2.3-.3.4l-1.3.7c-.3.2-.7.3-1.1.2-.4 0-.8-.1-1.1-.3-2.4-1.5-4.3-3.6-5.6-6.1C7.5 11.8 7 9 7.2 6.3c0-.4.2-.7.4-1.1.2-.3.5-.6.9-.7l1.3-.6c.2-.1.3-.1.5 0s.3.2.4.3l1.1 2.4zM9.3 3 8 3.7c-.5.2-.9.6-1.2 1-.3.4-.5.9-.5 1.4-.3 3 .3 5.9 1.6 8.6 1.4 2.6 3.4 4.9 5.9 6.4l.6.3c.4.1.8.2 1.3.2.4 0 .8-.1 1.2-.3l1.3-.6c.4-.2.6-.5.8-.9.1-.4.1-.8-.1-1.2l-1.2-2.5c-.2-.4-.5-.6-.9-.8-.4-.1-.8-.1-1.2.1l-1.3.6c-1.1-.8-2-1.9-2.6-3.1-.6-1.2-1-2.6-1-3.9l1.3-.7c.4-.2.7-.5.8-.9.1-.4.1-.8-.1-1.2l-1.3-2.5c-.2-.4-.5-.6-.9-.8-.4-.1-.8 0-1.2.1z" style="fill:#f18700"/></svg>
-                <span>+31 297 230 5700</span>
+                <span><?php the_field('telefoon', 'option');?></span>
             </a>
             <div class="ml-7 space-x-[15px]">
                 <!-- <button class="h-3 w-3 p-[5px] rounded-full border-[1px] border-[#C4C4C4] hover:bg-[#c4c4c44a] hover:scale-105 transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 24 25" viewBox="0 0 24 25"><path d="M16.9 17.2c-.1 0-.1.1 0 0l-.1.1c-1.3 1.3-3.2 2.1-5.2 2.1-4.1 0-7.4-3.3-7.4-7.4s3.3-7.4 7.4-7.4c4.1 0 7.4 3.3 7.4 7.4 0 2.1-.8 3.9-2.1 5.2m3.8 3.3-2.9-2.9c1.3-1.5 2.1-3.4 2.1-5.6 0-4.6-3.8-8.4-8.4-8.4S3.2 7.4 3.2 12c0 4.6 3.8 8.4 8.4 8.4 2.1 0 4.1-.8 5.6-2.1l2.9 2.9c.2.2.5.2.7 0 .1-.2.1-.5-.1-.7" style="fill:#f18700"/><path d="M16.9 17.2c-.1 0-.1.1 0 0l-.1.1c-1.3 1.3-3.2 2.1-5.2 2.1-4.1 0-7.4-3.3-7.4-7.4s3.3-7.4 7.4-7.4c4.1 0 7.4 3.3 7.4 7.4 0 2.1-.8 3.9-2.1 5.2zm3.8 3.3-2.9-2.9c1.3-1.5 2.1-3.4 2.1-5.6 0-4.6-3.8-8.4-8.4-8.4S3.2 7.4 3.2 12c0 4.6 3.8 8.4 8.4 8.4 2.1 0 4.1-.8 5.6-2.1l2.9 2.9c.2.2.5.2.7 0 .1-.2.1-.5-.1-.7z" style="fill:none;stroke:#f18700;stroke-width:5.000000e-02;stroke-miterlimit:10"/></svg>
                 </button> -->
-                <a href="">
+                <a href="<?php the_field('hcm-portal', 'option');?>" target="_blank">
                     <div class="h-3 w-3 p-[5px] rounded-full border-[1px] border-[#C4C4C4] hover:bg-[#c4c4c44a] hover:scale-105 transition-all">
                         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Laag_1" x="0" y="0" style="enable-background:new 0 0 24 25" version="1.1" viewBox="0 0 24 25"><path  d="M12 2.8c2 0 3.7 1.7 3.7 3.7 0 2.1-1.6 3.7-3.7 3.7S8.3 8.7 8.3 6.6 10 2.8 12 2.8m0 8.2c2.4 0 4.3-2 4.3-4.4S14.4 2.2 12 2.2s-4.3 2-4.3 4.4S9.6 11 12 11" fill="#F5A742" /><path d="M12 2.8c2 0 3.7 1.7 3.7 3.7 0 2.1-1.6 3.7-3.7 3.7S8.3 8.7 8.3 6.6 10 2.8 12 2.8zm0 8.2c2.4 0 4.3-2 4.3-4.4S14.4 2.2 12 2.2s-4.3 2-4.3 4.4S9.6 11 12 11z" fill="#F5A742"  /><path fill="#F5A742" d="M19 20.3v2.3H5v-2.5c0-3.9 3.1-7.1 7-7.1s7 3.2 7 7.3c0-.1 0-.1 0 0 0-.1 0-.1 0 0zm.7-.1c0-4.3-3.4-7.8-7.7-7.8s-7.7 3.5-7.7 7.8V23c0 .2.1.3.3.3h14.6c.2 0 .3-.2.3-.3v-2.8h.2z" class="st0"/><path fill="#F5A742"   d="M19 20.3v2.3H5v-2.5c0-3.9 3.1-7.1 7-7.1s7 3.2 7 7.3c0-.1 0-.1 0 0 0-.1 0-.1 0 0zm.7-.1c0-4.3-3.4-7.8-7.7-7.8s-7.7 3.5-7.7 7.8V23c0 .2.1.3.3.3h14.6c.2 0 .3-.2.3-.3v-2.8h.2z" /></svg>
                     </div>
@@ -54,7 +54,7 @@
         </div>
         <div>
             <div class="flex space-x-[10px] lg:hidden w-full h-full">
-                    <a href="">
+                    <a href="<?php the_field('hcm-portal', 'option');?>" target="_blank">
                         <div class="lg:hidden  h-3 w-3 p-[5px] rounded-full border-[1px] border-[#C4C4C4] hover:bg-[#c4c4c44a] hover:scale-105 transition-all">
                             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Laag_1" x="0" y="0" style="enable-background:new 0 0 24 25" version="1.1" viewBox="0 0 24 25"><path  d="M12 2.8c2 0 3.7 1.7 3.7 3.7 0 2.1-1.6 3.7-3.7 3.7S8.3 8.7 8.3 6.6 10 2.8 12 2.8m0 8.2c2.4 0 4.3-2 4.3-4.4S14.4 2.2 12 2.2s-4.3 2-4.3 4.4S9.6 11 12 11" fill="#F5A742" /><path d="M12 2.8c2 0 3.7 1.7 3.7 3.7 0 2.1-1.6 3.7-3.7 3.7S8.3 8.7 8.3 6.6 10 2.8 12 2.8zm0 8.2c2.4 0 4.3-2 4.3-4.4S14.4 2.2 12 2.2s-4.3 2-4.3 4.4S9.6 11 12 11z" fill="#F5A742"  /><path fill="#F5A742" d="M19 20.3v2.3H5v-2.5c0-3.9 3.1-7.1 7-7.1s7 3.2 7 7.3c0-.1 0-.1 0 0 0-.1 0-.1 0 0zm.7-.1c0-4.3-3.4-7.8-7.7-7.8s-7.7 3.5-7.7 7.8V23c0 .2.1.3.3.3h14.6c.2 0 .3-.2.3-.3v-2.8h.2z" class="st0"/><path fill="#F5A742"   d="M19 20.3v2.3H5v-2.5c0-3.9 3.1-7.1 7-7.1s7 3.2 7 7.3c0-.1 0-.1 0 0 0-.1 0-.1 0 0zm.7-.1c0-4.3-3.4-7.8-7.7-7.8s-7.7 3.5-7.7 7.8V23c0 .2.1.3.3.3h14.6c.2 0 .3-.2.3-.3v-2.8h.2z" /></svg>
                         </div>
@@ -87,15 +87,15 @@
                     <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/nieuws">Nieuws</a>
                     <a class="text-25 leading-35 font-light text-white font-raleway border-b-white/20 border-b-[0.5px] py-1" href="/leveringsvoorwaarden">Leveringsvoorwaarden</a>
                     <a class="text-25 leading-35 font-light text-white font-raleway pt-1" href="/privacy">Privacy & Voorwaarden</a>
-                    <a class="pt-5 flex" href="mailto:0297230570">
+                    <a class="pt-5 flex" href="tel:<?php the_field('telefoon', 'option');?>">
                         <svg class="w-2 h-auto" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 24 25" viewBox="0 0 24 25">
                             <path d="M11.8 6.6c.1.2.1.3 0 .5s-.2.3-.3.4l-1.5.7c-.1.1-.2.2-.2.3-.1 1.6.3 3.3 1 4.7.7 1.5 1.8 2.7 3.2 3.7.1.1.3.1.4 0l1.5-.7c.2-.1.3-.1.5 0s.3.2.4.3L18 19c.1.2.1.3 0 .5s-.2.3-.3.4l-1.3.7c-.3.2-.7.3-1.1.2-.4 0-.8-.1-1.1-.3-2.4-1.5-4.3-3.6-5.6-6.1C7.5 11.8 7 9 7.2 6.3c0-.4.2-.7.4-1.1.2-.3.5-.6.9-.7l1.3-.6c.2-.1.3-.1.5 0s.3.2.4.3l1.1 2.4zM9.3 3 8 3.7c-.5.2-.9.6-1.2 1-.3.4-.5.9-.5 1.4-.3 3 .3 5.9 1.6 8.6 1.4 2.6 3.4 4.9 5.9 6.4l.6.3c.4.1.8.2 1.3.2.4 0 .8-.1 1.2-.3l1.3-.6c.4-.2.6-.5.8-.9.1-.4.1-.8-.1-1.2l-1.2-2.5c-.2-.4-.5-.6-.9-.8-.4-.1-.8-.1-1.2.1l-1.3.6c-1.1-.8-2-1.9-2.6-3.1-.6-1.2-1-2.6-1-3.9l1.3-.7c.4-.2.7-.5.8-.9.1-.4.1-.8-.1-1.2l-1.3-2.5c-.2-.4-.5-.6-.9-.8-.4-.1-.8 0-1.2.1z" style="fill:#f18700"/>
                         </svg>
-                        <span class="text-25 leading-35 font-bold text-white font-raleway ml-[5px]">0297-230570</span>
+                        <span class="text-25 leading-35 font-bold text-white font-raleway ml-[5px]"><?php the_field('telefoon', 'option');?></span>
                     </a>
                 </div>
                 <div class="flex items-center">
-                    <a href=""><svg class="h-[40px]" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 40.1 40.1" viewBox="0 0 40.1 40.1"><path d="M5.7 3.5h28.7c1.1.2 1.9.8 2.2 1.8.3.9.1 2.3.1 3.6v21.9c0 1.2.1 2.5 0 3.6-.1 1.3-1.1 2-2.2 2.2H5.7c-1.3-.2-2-.9-2.2-2.2V5.7c.2-1.3.9-2 2.2-2.2m2.2 7.4c0 2.2 2.5 3.7 4.4 2.5.4-.2.7-.6.9-.9 1.3-2.2-.5-4.5-2.6-4.4-1.5 0-2.7 1.2-2.7 2.8M30.1 17c-1-1-2.6-1.6-4.6-1.5-2.1.1-3.5 1.2-4.4 2.5v-2.1h-4.8v15.8h5v-5.5c0-2-.2-3.9.5-5.1.5-1 2.3-1.8 3.7-1 1.6.9 1.3 3.7 1.3 6.3v5.3h5c-.4-5 1-11.9-1.7-14.7M8.3 16v15.7h5V15.9H8.4c-.1 0-.1.1-.1.1" style="fill:#fff"/></svg></a>
+                    <a href="<?php the_field('linkedin', 'option');?>" target="_blank"><svg class="h-[40px]" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 40.1 40.1" viewBox="0 0 40.1 40.1"><path d="M5.7 3.5h28.7c1.1.2 1.9.8 2.2 1.8.3.9.1 2.3.1 3.6v21.9c0 1.2.1 2.5 0 3.6-.1 1.3-1.1 2-2.2 2.2H5.7c-1.3-.2-2-.9-2.2-2.2V5.7c.2-1.3.9-2 2.2-2.2m2.2 7.4c0 2.2 2.5 3.7 4.4 2.5.4-.2.7-.6.9-.9 1.3-2.2-.5-4.5-2.6-4.4-1.5 0-2.7 1.2-2.7 2.8M30.1 17c-1-1-2.6-1.6-4.6-1.5-2.1.1-3.5 1.2-4.4 2.5v-2.1h-4.8v15.8h5v-5.5c0-2-.2-3.9.5-5.1.5-1 2.3-1.8 3.7-1 1.6.9 1.3 3.7 1.3 6.3v5.3h5c-.4-5 1-11.9-1.7-14.7M8.3 16v15.7h5V15.9H8.4c-.1 0-.1.1-.1.1" style="fill:#fff"/></svg></a>
                     <div class="h-[35px] ml-[15px]">
                         <svg width="auto" height="100%" viewBox="0 0 324.8 536.209105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

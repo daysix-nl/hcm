@@ -24,9 +24,9 @@ else:
                     <img class="min-h-full min-w-full object-cover object-center" src="<?php the_post_thumbnail_url( );?>" alt="<?php the_title(); ?>">
                 </div>
                 
-                <h4 class="font-raleway font-bold text-[#2885C3] text-22 leading-32">Nieuwe website online</h4>
+                <h4 class="font-raleway font-bold text-[#2885C3] text-22 leading-32"><?php the_title();?></h4>
                 <div class="w-[115px] h-[1px] bg-[#F18700] mt-2 mb-2"></div>
-                <p class="font-poppins font-light text-black text-14 lg:text-15 leading-24 mb-2 max-w-[360px] line-clamp-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+                <p class="font-poppins font-light text-black text-14 lg:text-15 leading-24 mb-2 max-w-[360px] line-clamp-2"><?php the_field('intro_tekst', $post_id);?></p>
                 <span class="h-[35px] px-2 flex justify-center items-center text-white bg-[#F18700] rounded-full w-fit text-15 leading-15" href="#">
                     Lees verder
                 </span>
