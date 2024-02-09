@@ -962,6 +962,9 @@ video {
 .max-w-\[775px\] {
   max-width: 775px;
 }
+.max-w-\[600px\] {
+  max-width: 600px;
+}
 .origin-center {
   transform-origin: center;
 }
@@ -1870,6 +1873,10 @@ video {
 
   .xl\:max-w-\[770px\] {
     max-width: 770px;
+  }
+
+  .xl\:max-w-\[775px\] {
+    max-width: 775px;
   }
 
   .xl\:pt-\[70\%\] {

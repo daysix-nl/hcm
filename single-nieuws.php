@@ -30,7 +30,7 @@ $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'full')[0];
         </section>
     </section>
     <div class="pb-[80px] container mt-[50px] lg:mt-[-220px]">
-        <div class="max-w-[775px] text-editor ">
+        <div class="max-w-[600px] xl:max-w-[775px] text-editor ">
             <?php the_content();?>
         </div>
     </div>
