@@ -1709,6 +1709,14 @@ video {
     margin-top: -50px;
   }
 
+  .lg\:mt-\[-180px\] {
+    margin-top: -180px;
+  }
+
+  .lg\:mt-\[-220px\] {
+    margin-top: -220px;
+  }
+
   .lg\:block {
     display: block;
   }
