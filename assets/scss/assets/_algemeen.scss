@@ -16,3 +16,140 @@ body {
   width: 100% !important;
   max-width: 775px !important;
 }
+
+
+
+a.all:hover {
+  svg rect {
+    fill: #F0A76A !important;
+  }
+
+  p {
+    color: #F0A76A !important;
+  }
+}
+
+.text-editor {
+  display: grid;
+  gap: 16px;
+
+  p {
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    strong {
+      font-weight: 700;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    a {
+      color: #F0A76A !important;
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+    margin-left: 2rem;
+    font-weight: 300 !important;
+
+  }
+
+  ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    list-style-image: none;
+    margin-left: 2rem;
+    font-weight: 300 !important;
+
+  }
+
+  blockquote {
+    border-left: 2px solid #F0A76A;
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      padding-left: 1rem;
+    }
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif !important;
+
+    // MD
+    @media (min-width: 768px) {
+      font-size: 40px;
+      line-height: 46px;
+    }
+
+    // LG
+    @media (min-width: 1200px) {
+      line-height: 70px;
+      font-size: 61px;
+    }
+
+    // XL
+    @media (min-width: 1352px) {
+      font-size: 70px;
+      line-height: 80px;
+    }
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif !important;
+    color: #2885C3;
+
+    // MD
+    @media (min-width: 768px) {
+      font-size: 16px;
+      line-height: 23px;
+    }
+
+    // LG
+    @media (min-width: 1200px) {
+      line-height: 22px;
+      font-size: 28px;
+    }
+
+    // XL
+    @media (min-width: 1352px) {
+      font-size: 25px;
+      line-height: 33px;
+    }
+  }
+
+  iframe {
+    width: 100% !important;
+    // height: auto !important;
+    // aspect-ratio: 16/9 !important;
+  }
+}

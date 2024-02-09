@@ -19,6 +19,8 @@
 .wpc-radio-item {
     margin-right: 20px !important;
 
+
+
     a {
         font-family: Poppins, sans-serif !important;
         height: 25px !important;
@@ -38,6 +40,9 @@
     display: none !important;
 
 
+    &:hover+label a {
+        color: #F0A76A !important;
+    }
 
     &:checked+label {
         a {

@@ -5,7 +5,7 @@ if (isset($block['data']['preview_image_help'])): ?>
 else: ?>
 <!-- HTML -->
 <section class="bg-white">
-    <div class="container grid grid-cols-1 lg:grid-cols-2 gap-[50px] pb-[80px]">
+    <div class="container grid grid-cols-1 lg:grid-cols-2 gap-[50px] pb-[80px] items-start">
         <div class="grid gap-[50px]">
             <?php
             if( have_rows('kolom_1') ):

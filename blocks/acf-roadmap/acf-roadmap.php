@@ -11,7 +11,7 @@ else: ?>
                 <div class="h-[200px] w-[200px] rounded-full bg-[#F18700] mx-auto z-10 border-[10px] border-white shadow-2xl flex justify-center items-center p-3">
                     <?php include get_template_directory() . '/img/icon/icon-light.php'; ?>
                 </div>
-                <h3 class="text-25 leading-35 md:text-28 md:leading-38 text-[#2885C3] mt-4 max-w-[186px] text-center">HCM 10 stappen- proces</h3>
+                <h3 class="text-25 leading-35 md:text-23 md:leading-34 text-[#2885C3] mt-4 max-w-[186px] text-center">HCM <br>10-stappenproces</h3>
             </div>
         </div>
         <div class="col-span-7 lg:col-span-5">
@@ -186,7 +186,7 @@ else: ?>
 
     <section class="md:hidden">
         <div class="container">
-            <h3 class="text-25 leading-35 text-[#2885C3] text-center mb-2">HCM 10 stappen- proces</h3>
+            <h3 class="text-25 leading-35 text-[#2885C3] text-center mb-2">HCM 10-stappenproces</h3>
         </div>
 
     <div class="relative">

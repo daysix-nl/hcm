@@ -18,6 +18,7 @@
                 <a class="text-white hover:text-[#F18700] font-light text-15 md:text-16 font-poppins flex" href="/">Wie</a>
                 <a class="text-white hover:text-[#F18700] font-light text-15 md:text-16 font-poppins flex" href="/wat/cat-alle/">Wat</a>
                <a class="text-white hover:text-[#F18700] font-light text-15 md:text-16 font-poppins flex" href="/hoe">Hoe</a>
+               <a class="text-white hover:text-[#F18700] font-light text-15 md:text-16 font-poppins flex" href="/nieuws">Nieuws</a>
                 <a class="text-white hover:text-[#F18700] font-light text-15 md:text-16 font-poppins flex" href="/leveringsvoorwaarden">Leveringsvoorwaarden</a>
                 <a class="text-white hover:text-[#F18700] font-light text-15 md:text-16 font-poppins flex" href="/privacy">Privacy & Cookies</a>
             </div>
