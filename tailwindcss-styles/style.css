@@ -753,6 +753,9 @@ video {
 .mt-\[30px\] {
   margin-top: 30px;
 }
+.mt-\[-60px\] {
+  margin-top: -60px;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -856,6 +859,9 @@ video {
 .h-full {
   height: 100%;
 }
+.h-\[48px\] {
+  height: 48px;
+}
 .max-h-\[450px\] {
   max-height: 450px;
 }
@@ -920,6 +926,12 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-\[172px\] {
+  width: 172px;
+}
+.w-\[143px\] {
+  width: 143px;
+}
 .min-w-full {
   min-width: 100%;
 }
@@ -937,6 +949,9 @@ video {
 }
 .max-w-\[390px\] {
   max-width: 390px;
+}
+.max-w-\[152px\] {
+  max-width: 152px;
 }
 .origin-center {
   transform-origin: center;
@@ -1322,6 +1337,9 @@ video {
 .leading-35 {
   line-height: 35px;
 }
+.leading-25 {
+  line-height: 25px;
+}
 .text-\[\#2885C3\] {
   --tw-text-opacity: 1;
   color: rgb(40 133 195 / var(--tw-text-opacity));
@@ -1388,6 +1406,13 @@ video {
 .hover\:text-\[\#F18A06\]:hover {
   --tw-text-opacity: 1;
   color: rgb(241 138 6 / var(--tw-text-opacity));
+}
+.hover\:text-\[\]:hover {
+  color: ;
+}
+.hover\:text-\[\#F18700\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 135 0 / var(--tw-text-opacity));
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
@@ -1485,6 +1510,10 @@ video {
     height: auto;
   }
 
+  .md\:h-\[42px\] {
+    height: 42px;
+  }
+
   .md\:w-\[275x\] {
     width: 275x;
   }
@@ -1495,6 +1524,22 @@ video {
 
   .md\:w-\[700px\] {
     width: 700px;
+  }
+
+  .md\:w-\[316pxx\] {
+    width: 316pxx;
+  }
+
+  .md\:w-\[316px\] {
+    width: 316px;
+  }
+
+  .md\:w-\[275px\] {
+    width: 275px;
+  }
+
+  .md\:w-\[172px\] {
+    width: 172px;
   }
 
   .md\:min-w-\[650px\] {
@@ -1531,6 +1576,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
   }
 
   .md\:items-center {
@@ -1588,6 +1637,10 @@ video {
 
   .md\:leading-40 {
     line-height: 40px;
+  }
+
+  .md\:leading-26 {
+    line-height: 26px;
   }
 }
 @media (min-width: 1200px) {
@@ -1709,6 +1762,10 @@ video {
 
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:items-end {
+    align-items: flex-end;
   }
 
   .lg\:space-x-\[15px\] > :not([hidden]) ~ :not([hidden]) {
