@@ -55,6 +55,7 @@
         </div>
         <div>
             <div class="flex space-x-[10px] lg:hidden w-full h-full">
+                    <div id="weglot_here"></div>
                     <a href="<?php the_field('hcm-portal', 'option');?>" target="_blank">
                         <div class="lg:hidden  h-3 w-3 p-[5px] rounded-full border-[1px] border-[#C4C4C4] hover:bg-[#c4c4c44a] hover:scale-105 transition-all">
                             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Laag_1" x="0" y="0" style="enable-background:new 0 0 24 25" version="1.1" viewBox="0 0 24 25"><path  d="M12 2.8c2 0 3.7 1.7 3.7 3.7 0 2.1-1.6 3.7-3.7 3.7S8.3 8.7 8.3 6.6 10 2.8 12 2.8m0 8.2c2.4 0 4.3-2 4.3-4.4S14.4 2.2 12 2.2s-4.3 2-4.3 4.4S9.6 11 12 11" fill="#F5A742" /><path d="M12 2.8c2 0 3.7 1.7 3.7 3.7 0 2.1-1.6 3.7-3.7 3.7S8.3 8.7 8.3 6.6 10 2.8 12 2.8zm0 8.2c2.4 0 4.3-2 4.3-4.4S14.4 2.2 12 2.2s-4.3 2-4.3 4.4S9.6 11 12 11z" fill="#F5A742"  /><path fill="#F5A742" d="M19 20.3v2.3H5v-2.5c0-3.9 3.1-7.1 7-7.1s7 3.2 7 7.3c0-.1 0-.1 0 0 0-.1 0-.1 0 0zm.7-.1c0-4.3-3.4-7.8-7.7-7.8s-7.7 3.5-7.7 7.8V23c0 .2.1.3.3.3h14.6c.2 0 .3-.2.3-.3v-2.8h.2z" class="st0"/><path fill="#F5A742"   d="M19 20.3v2.3H5v-2.5c0-3.9 3.1-7.1 7-7.1s7 3.2 7 7.3c0-.1 0-.1 0 0 0-.1 0-.1 0 0zm.7-.1c0-4.3-3.4-7.8-7.7-7.8s-7.7 3.5-7.7 7.8V23c0 .2.1.3.3.3h14.6c.2 0 .3-.2.3-.3v-2.8h.2z" /></svg>
