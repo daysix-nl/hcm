@@ -702,11 +702,17 @@ video {
 .mb-4 {
   margin-bottom: 40px;
 }
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
 .mb-\[5px\] {
   margin-bottom: 5px;
 }
 .ml-7 {
   margin-left: 70px;
+}
+.ml-\[10px\] {
+  margin-left: 10px;
 }
 .ml-\[15px\] {
   margin-left: 15px;
@@ -747,6 +753,9 @@ video {
 .mt-\[-120px\] {
   margin-top: -120px;
 }
+.mt-\[0px\] {
+  margin-top: 0px;
+}
 .mt-\[10px\] {
   margin-top: 10px;
 }
@@ -755,18 +764,6 @@ video {
 }
 .mt-\[30px\] {
   margin-top: 30px;
-}
-.mt-\[0px\] {
-  margin-top: 0px;
-}
-.mb-\[50px\] {
-  margin-bottom: 50px;
-}
-.ml-\[10px\] {
-  margin-left: 10px;
-}
-.mt-\[\] {
-  margin-top: ;
 }
 .mt-\[50px\] {
   margin-top: 50px;
@@ -958,9 +955,6 @@ video {
 }
 .max-w-\[390px\] {
   max-width: 390px;
-}
-.max-w-\[775px\] {
-  max-width: 775px;
 }
 .max-w-\[600px\] {
   max-width: 600px;
@@ -1349,6 +1343,9 @@ video {
 .leading-35 {
   line-height: 35px;
 }
+.text-\[\#0000006a\] {
+  color: #0000006a;
+}
 .text-\[\#2885C3\] {
   --tw-text-opacity: 1;
   color: rgb(40 133 195 / var(--tw-text-opacity));
@@ -1368,20 +1365,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#f0f0f0\] {
-  --tw-text-opacity: 1;
-  color: rgb(240 240 240 / var(--tw-text-opacity));
-}
-.text-\[\#c5c5c5\] {
-  --tw-text-opacity: 1;
-  color: rgb(197 197 197 / var(--tw-text-opacity));
-}
-.text-\[\#0000009d\] {
-  color: #0000009d;
-}
-.text-\[\#0000006a\] {
-  color: #0000006a;
 }
 .underline {
   text-decoration-line: underline;
@@ -1627,20 +1610,16 @@ video {
     font-size: 20px;
   }
 
+  .md\:text-23 {
+    font-size: 23px;
+  }
+
   .md\:text-28 {
     font-size: 28px;
   }
 
-  .md\:text-25 {
-    font-size: 25px;
-  }
-
-  .md\:text-24 {
-    font-size: 24px;
-  }
-
-  .md\:text-23 {
-    font-size: 23px;
+  .md\:leading-34 {
+    line-height: 34px;
   }
 
   .md\:leading-38 {
@@ -1649,14 +1628,6 @@ video {
 
   .md\:leading-40 {
     line-height: 40px;
-  }
-
-  .md\:leading-35 {
-    line-height: 35px;
-  }
-
-  .md\:leading-34 {
-    line-height: 34px;
   }
 }
 @media (min-width: 1200px) {
@@ -1708,16 +1679,12 @@ video {
     margin-top: -155px;
   }
 
-  .lg\:mt-\[-50px\] {
-    margin-top: -50px;
-  }
-
-  .lg\:mt-\[-180px\] {
-    margin-top: -180px;
-  }
-
   .lg\:mt-\[-220px\] {
     margin-top: -220px;
+  }
+
+  .lg\:mt-\[-50px\] {
+    margin-top: -50px;
   }
 
   .lg\:block {

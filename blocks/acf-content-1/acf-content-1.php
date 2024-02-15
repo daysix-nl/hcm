@@ -13,7 +13,7 @@ else: ?>
                 <div class="item">
                     <h2 class="font-raleway font-bold text-[#2885C3] text-22"><?php the_sub_field('titel');?></h2>
                     <div class="h-[1px] w-[115px] bg-[#F18700] my-2"></div>
-                    <p class="font-poppins font-light text-black text-16 leading-26"><?php the_sub_field('tekst');?></p>
+                    <div class="font-poppins font-light text-black text-16 leading-26 text-editor"><?php the_sub_field('tekst');?></div>
                 </div>
                 <?php
                 endwhile;
@@ -28,7 +28,7 @@ else: ?>
                 <div class="item">
                     <h2 class="font-raleway font-bold text-[#2885C3] text-22"><?php the_sub_field('titel');?></h2>
                     <div class="h-[1px] w-[115px] bg-[#F18700] my-2"></div>
-                    <p class="font-poppins font-light text-black text-16 leading-26"><?php the_sub_field('tekst');?></p>
+                    <div class="font-poppins font-light text-black text-16 leading-26 text-editor"><?php the_sub_field('tekst');?></div>
                 </div>
                 <?php
                 endwhile;

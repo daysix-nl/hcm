@@ -50,7 +50,7 @@
                     "label": "Tekst",
                     "name": "tekst",
                     "aria-label": "",
-                    "type": "textarea",
+                    "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -60,10 +60,10 @@
                         "id": ""
                     },
                     "default_value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                    "maxlength": "",
-                    "rows": 8,
-                    "placeholder": "",
-                    "new_lines": "br",
+                    "tabs": "all",
+                    "toolbar": "basic",
+                    "media_upload": 0,
+                    "delay": 0,
                     "parent_repeater": "field_656c9823c2455"
                 }
             ]
@@ -116,7 +116,7 @@
                     "label": "Tekst",
                     "name": "tekst",
                     "aria-label": "",
-                    "type": "textarea",
+                    "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -126,10 +126,10 @@
                         "id": ""
                     },
                     "default_value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                    "maxlength": "",
-                    "rows": 8,
-                    "placeholder": "",
-                    "new_lines": "br",
+                    "tabs": "all",
+                    "toolbar": "basic",
+                    "media_upload": 0,
+                    "delay": 0,
                     "parent_repeater": "field_656c99896aeff"
                 }
             ]
@@ -153,5 +153,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1701616013
+    "modified": 1707987764
 }
