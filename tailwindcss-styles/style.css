@@ -768,6 +768,12 @@ video {
 .mt-\[50px\] {
   margin-top: 50px;
 }
+.mr-\[\] {
+  margin-right: ;
+}
+.mr-\[3px\] {
+  margin-right: 3px;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
