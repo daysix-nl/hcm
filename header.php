@@ -96,7 +96,7 @@
                 </div>
                 <div class="flex items-center">
                     <a href="<?php the_field('linkedin', 'option');?>" target="_blank"><svg class="h-[40px]" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 40.1 40.1" viewBox="0 0 40.1 40.1"><path d="M5.7 3.5h28.7c1.1.2 1.9.8 2.2 1.8.3.9.1 2.3.1 3.6v21.9c0 1.2.1 2.5 0 3.6-.1 1.3-1.1 2-2.2 2.2H5.7c-1.3-.2-2-.9-2.2-2.2V5.7c.2-1.3.9-2 2.2-2.2m2.2 7.4c0 2.2 2.5 3.7 4.4 2.5.4-.2.7-.6.9-.9 1.3-2.2-.5-4.5-2.6-4.4-1.5 0-2.7 1.2-2.7 2.8M30.1 17c-1-1-2.6-1.6-4.6-1.5-2.1.1-3.5 1.2-4.4 2.5v-2.1h-4.8v15.8h5v-5.5c0-2-.2-3.9.5-5.1.5-1 2.3-1.8 3.7-1 1.6.9 1.3 3.7 1.3 6.3v5.3h5c-.4-5 1-11.9-1.7-14.7M8.3 16v15.7h5V15.9H8.4c-.1 0-.1.1-.1.1" style="fill:#fff"/></svg></a>
-                    <div class="h-[35px] ml-[15px]">
+                    <a href="https://www.censo.nl/" target="_blank" class="h-[35px] ml-[15px]">
                         <svg width="auto" height="100%" viewBox="0 0 324.8 536.209105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="Censo-logo" fill="#FFFFFF" fill-rule="nonzero">
@@ -128,7 +128,7 @@
                                 </g>
                             </g>
                         </svg>
-                    </div>
+                    </a>
 
                 </div>
 
