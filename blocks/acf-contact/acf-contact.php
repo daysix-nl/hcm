@@ -7,7 +7,7 @@ else: ?>
     <div class="container grid grid-cols-1 lg:grid-cols-2">
         <div class="col-span-1 flex flex-col lg:mt-[-155px]">
             <div class="flex flex-row mb-1">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">Bezoekadres</h4>
                 </div>
                 <div>   
@@ -16,7 +16,7 @@ else: ?>
             </div>
     
             <div class="flex flex-row">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">Postadres</h4>
                 </div>
                 <div>   
@@ -25,7 +25,7 @@ else: ?>
             </div>
             <div class="w-[115px] h-[1px] bg-[#F18700] my-[25px]"></div>
             <div class="flex flex-row">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">Telefoon</h4>
                 </div>
                 <div>   
@@ -33,7 +33,7 @@ else: ?>
                 </div>
             </div>
             <div class="flex flex-row">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">WhatsApp</h4>
                 </div>
                 <div>   
@@ -42,7 +42,7 @@ else: ?>
             </div>
             <div class="w-[115px] h-[1px] bg-[#F18700] my-[25px]"></div>
             <div class="flex flex-row">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">Email</h4>
                 </div>
                 <div>   
@@ -51,7 +51,7 @@ else: ?>
             </div>
             <div class="w-[115px] h-[1px] bg-[#F18700] my-[25px]"></div>
             <div class="flex flex-row mb-1">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">Bank</h4>
                 </div>
                 <div>   
@@ -59,7 +59,7 @@ else: ?>
                 </div>
             </div>
             <div class="flex flex-row">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">KvK</h4>
                 </div>
                 <div>   
@@ -67,7 +67,7 @@ else: ?>
                 </div>
             </div>
             <div class="flex flex-row">
-                <div class="w-[115px]">
+                <div class="w-[130px]">
                     <h4 class="font-raleway font-bold text-black text-14 lg:text-15 leading-24">BTW</h4>
                 </div>
                 <div>   
