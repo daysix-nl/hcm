@@ -766,3 +766,5 @@ function custom_frontend_translations($translated_text, $text, $domain) {
 
 add_filter('gettext', 'custom_frontend_translations', 20, 3);
 
+
+add_filter( 'acf/admin/prevent_escaped_html_notice', '__return_true' );
