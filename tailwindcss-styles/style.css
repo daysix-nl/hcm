@@ -738,6 +738,9 @@ video {
 .mr-\[-100px\] {
   margin-right: -100px;
 }
+.mr-\[3px\] {
+  margin-right: 3px;
+}
 .mt-1 {
   margin-top: 10px;
 }
@@ -767,12 +770,6 @@ video {
 }
 .mt-\[50px\] {
   margin-top: 50px;
-}
-.mr-\[\] {
-  margin-right: ;
-}
-.mr-\[3px\] {
-  margin-right: 3px;
 }
 .line-clamp-2 {
   overflow: hidden;
@@ -1377,6 +1374,9 @@ video {
 }
 .underline-offset-2 {
   text-underline-offset: 2px;
+}
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
 }
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);

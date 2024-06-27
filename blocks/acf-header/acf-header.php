@@ -14,7 +14,7 @@ else: ?>
         $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
         ?>   
         <div class="relative z-10 w-full h-full rotate-[225deg] pt-[88%] md:pt-[95%] lg:pt-[85%] xl:pt-[85%] flex justify-center items-center origin-center">
-            <img class=" w-full max-w-[115px]  md:max-w-[150px] lg:max-w-[200px] z-10" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>">
+            <img class=" w-full max-w-[115px]  md:max-w-[150px] lg:max-w-[200px] z-10 mix-blend-multiply" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>">
         </div>
         <?php endif; ?>
        <?php if (get_field('beeld') !== "logo"): ?> 
